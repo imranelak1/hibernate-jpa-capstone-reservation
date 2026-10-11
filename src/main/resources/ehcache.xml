@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.ehcache.org/v3" xmlns:jsr107="http://www.ehcache.org/v3/jsr107">
+  <service><jsr107:defaults default-template="entities"/></service>
+  <cache-template name="entities"><heap unit="entries">1000</heap></cache-template>
+</config>
