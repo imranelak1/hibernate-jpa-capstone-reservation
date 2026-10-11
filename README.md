@@ -17,7 +17,7 @@ mvn exec:java
 
 Les 12 tests passent, notamment pour les réservations, les conflits, les migrations et le cache. La démo affiche les données et les statistiques Hibernate. Une seconde lecture de salle utilise le cache sans nouvelle requête SQL.
 
-Les sorties d'exécution sont disponibles dans [evidence](evidence/). Les captures ci-dessous montrent le rapport créé à partir de ces résultats.
+Les sorties d'exécution sont disponibles dans [evidence](evidence/). Les captures de la démo et des tests viennent d’exécutions réelles dans le terminal.
 
 ![Résultats de la démonstration](screenshots/results.png)
 

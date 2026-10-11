@@ -8,21 +8,21 @@
 [INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
 [INFO] 
 [INFO] --- clean:3.5.0:clean (default-clean) @ reservation-capstone ---
-[INFO] Deleting C:\Users\imrane\Desktop\lachguer\hibernate-jpa-capstone-reservation\target
+[INFO] Deleting /work/target
 [INFO] 
 [INFO] --- resources:3.5.0:resources (default-resources) @ reservation-capstone ---
-[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] Copying 4 resources from src/main/resources to target/classes
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ reservation-capstone ---
 [INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 9 source files with javac [debug release 17] to target\classes
+[INFO] Compiling 9 source files with javac [debug release 17] to target/classes
 [INFO] 
 [INFO] --- resources:3.5.0:testResources (default-testResources) @ reservation-capstone ---
-[INFO] skip non existing resourceDirectory C:\Users\imrane\Desktop\lachguer\hibernate-jpa-capstone-reservation\src\test\resources
+[INFO] skip non existing resourceDirectory /work/src/test/resources
 [INFO] 
 [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ reservation-capstone ---
 [INFO] Recompiling the module because of changed dependency.
-[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
 [INFO] 
 [INFO] --- surefire:3.5.2:test (default-test) @ reservation-capstone ---
 [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
@@ -31,95 +31,95 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.example.ReservationTest
-Oct 11, 2026 12:01:48 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:30 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:48 PM org.hibernate.Version logVersion
+Oct 11, 2026 3:11:30 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate ORM core version 5.4.32.Final
-Oct 11, 2026 12:01:48 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Oct 11, 2026 3:11:31 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-Oct 11, 2026 12:01:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_1c4dcfea-d5ef-421a-a51c-3f374d06a570;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_f563a80e-6e69-48a3-b3fc-1cad69c7d256;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:32 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:48 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:32 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@282c4da0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
+Oct 11, 2026 3:11:37 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@79cb8ffa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:37 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:49 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:38 PM com.example.service.ReservationService createReservation
 INFO: Réservation créée : 7
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_1c4dcfea-d5ef-421a-a51c-3f374d06a570;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:38 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_f563a80e-6e69-48a3-b3fc-1cad69c7d256;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:39 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_fe485f7f-58bb-4577-9389-1bde995a662e;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_612edff8-94e1-4eeb-bb7b-b4ff38001bf4;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:49 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:39 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58fbcb71] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:39 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7019d619] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_fe485f7f-58bb-4577-9389-1bde995a662e;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_612edff8-94e1-4eeb-bb7b-b4ff38001bf4;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:39 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_6e129a4f-8fc0-4ea3-9f4d-ad630e23347e;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_ee69c47e-c46e-43ac-8b1b-64849523595f;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:49 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:40 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
@@ -127,148 +127,148 @@ INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-Oct 11, 2026 12:01:49 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3cb04dd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:49 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
+Oct 11, 2026 3:11:40 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b841713] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:49 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:40 PM com.example.service.ReservationService createReservation
 WARNING: Création refusée : La fin doit suivre le début
-Oct 11, 2026 12:01:49 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:40 PM com.example.service.ReservationService createReservation
 WARNING: Création refusée : Utilisateur inconnu
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_6e129a4f-8fc0-4ea3-9f4d-ad630e23347e;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_ee69c47e-c46e-43ac-8b1b-64849523595f;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:40 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_4c916b1b-3566-4935-8af6-f72676bda885;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_c57c1395-4107-4ef7-8680-f80bb7b0f9e7;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:40 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:50 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:40 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bf7f15f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:41 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36511772] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
 WARN: SQL Error: 23505, SQLState: 23505
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
 ERROR: Unique index or primary key violation: "PUBLIC.IDX_UTILISATEUR_EMAIL ON PUBLIC.UTILISATEURS(EMAIL) VALUES 1"; SQL statement:
 insert into utilisateurs (id, email, nom, version) values (null, ?, ?, ?) [23505-200]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_4c916b1b-3566-4935-8af6-f72676bda885;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_c57c1395-4107-4ef7-8680-f80bb7b0f9e7;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:41 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_65640c28-2ae5-4016-aff3-5bd0b6c95d23;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_aa4111c1-1da5-4478-a090-6243b43221f9;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:50 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:41 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72585e83] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
+Oct 11, 2026 3:11:41 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b144175] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_65640c28-2ae5-4016-aff3-5bd0b6c95d23;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_aa4111c1-1da5-4478-a090-6243b43221f9;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:42 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_b546afad-3591-4dcc-8d8e-39575a01b32c;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_4b257a56-235e-4f09-90c3-aa63abacaf7d;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:50 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:42 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7178d811] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:42 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d6712b7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:50 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_b546afad-3591-4dcc-8d8e-39575a01b32c;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:42 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_4b257a56-235e-4f09-90c3-aa63abacaf7d;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:42 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_5b5dcbe4-e157-4261-acbc-4e9fbf544e1a;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_946ebec3-a66c-4131-b536-2525a0d935dc;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:51 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:43 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
@@ -280,69 +280,69 @@ INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@336070ab] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:43 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2a5efbb9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:51 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:43 PM com.example.service.ReservationService createReservation
 INFO: Réservation créée : 7
-Oct 11, 2026 12:01:51 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:43 PM com.example.service.ReservationService createReservation
 WARNING: Création refusée : Créneau déjà réservé
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_5b5dcbe4-e157-4261-acbc-4e9fbf544e1a;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_946ebec3-a66c-4131-b536-2525a0d935dc;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:43 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_6e127be1-5ed8-42f3-a04d-caa0bbbe73c0;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_c1256edb-3d28-45b4-949f-e733c17096a9;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:43 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:51 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:43 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3346e906] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:44 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6108fd23] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_6e127be1-5ed8-42f3-a04d-caa0bbbe73c0;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_c1256edb-3d28-45b4-949f-e733c17096a9;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:44 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_a7b9be66-4a88-4188-9e86-65d00746fa09;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_a23a0034-12e9-4131-8847-f331b4b79716;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:44 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:51 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:44 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
@@ -354,67 +354,67 @@ INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@542beecb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:44 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45a9cf78] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_a7b9be66-4a88-4188-9e86-65d00746fa09;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_a23a0034-12e9-4131-8847-f331b4b79716;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:45 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_667b9b31-0aee-4671-a611-ee2ba1cb749f;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_2883a016-077f-47a4-9be3-4464cd3a64b8;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:52 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:45 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7c0a6f62] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
+Oct 11, 2026 3:11:45 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@515fff35] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:52 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:45 PM com.example.service.ReservationService createReservation
 WARNING: Création refusée : Créneau déjà réservé
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_667b9b31-0aee-4671-a611-ee2ba1cb749f;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:45 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_2883a016-077f-47a4-9be3-4464cd3a64b8;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:46 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_bc34027a-874e-4347-aad8-4075a1550a9a;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_d0ee2bd2-7dce-432b-97a9-358dd8924a53;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:52 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:46 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
@@ -426,63 +426,63 @@ INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37aea657] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:46 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3182143c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl release
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl release
 INFO: HHH000010: On release of batch it still contained JDBC statements
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.batch.internal.BatchingBatch performExecution
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.batch.internal.BatchingBatch performExecution
 ERROR: HHH000315: Exception executing batch [org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1; statement executed: update reservations set date_debut=?, date_fin=?, salle_id=?, utilisateur_id=?, version=? where id=? and version=?], SQL: update reservations set date_debut=?, date_fin=?, salle_id=?, utilisateur_id=?, version=? where id=? and version=?
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_bc34027a-874e-4347-aad8-4075a1550a9a;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:46 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_d0ee2bd2-7dce-432b-97a9-358dd8924a53;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Oct 11, 2026 3:11:46 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: ReservationPU]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
-INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_6ee76571-97c0-47ed-95e0-fa8f829bf926;DB_CLOSE_DELAY=-1]
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test_134c66af-34a2-42f2-b2cd-3592eff70f2f;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=sa}
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Oct 11, 2026 12:01:52 PM org.hibernate.dialect.Dialect <init>
+Oct 11, 2026 3:11:47 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-update-timestamps-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache default-query-results-region will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
-[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
-[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Reservation will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' created in EhcacheManager.
+[main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Utilisateur will be supplemented by template entities
+[main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' created in EhcacheManager.
 [main] INFO org.ehcache.jsr107.ConfigurationMerger - Configuration of cache com.example.model.Salle will be supplemented by template entities
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' created in EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@543c887] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+Oct 11, 2026 3:11:47 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@33502cfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-Oct 11, 2026 12:01:52 PM com.example.service.ReservationService createReservation
+Oct 11, 2026 3:11:47 PM com.example.service.ReservationService createReservation
 INFO: Réservation créée : 7
-Oct 11, 2026 12:01:52 PM com.example.service.ReservationService modifyReservation
+Oct 11, 2026 3:11:47 PM com.example.service.ReservationService modifyReservation
 INFO: Réservation modifiée : 7
-Oct 11, 2026 12:01:52 PM com.example.service.ReservationService deleteReservation
+Oct 11, 2026 3:11:47 PM com.example.service.ReservationService deleteReservation
 INFO: Réservation supprimée : 7
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Utilisateur' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Salle' removed from EhcacheManager.
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'com.example.model.Reservation' removed from EhcacheManager.
-Oct 11, 2026 12:01:52 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
-INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_6ee76571-97c0-47ed-95e0-fa8f829bf926;DB_CLOSE_DELAY=-1]
+Oct 11, 2026 3:11:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_134c66af-34a2-42f2-b2cd-3592eff70f2f;DB_CLOSE_DELAY=-1]
 [main] INFO org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
-[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.947 s -- in com.example.ReservationTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.96 s -- in com.example.ReservationTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -490,10 +490,10 @@ INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test_6ee76571-97c0-4
 [INFO] 
 [INFO] 
 [INFO] --- jar:3.5.1:jar (default-jar) @ reservation-capstone ---
-[INFO] Building jar: C:\Users\imrane\Desktop\lachguer\hibernate-jpa-capstone-reservation\target\reservation-capstone-1.0.0.jar
+[INFO] Building jar: /work/target/reservation-capstone-1.0.0.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.949 s
-[INFO] Finished at: 2026-10-11T12:01:53+01:00
+[INFO] Total time:  28.738 s
+[INFO] Finished at: 2026-10-11T15:11:49+01:00
 [INFO] ------------------------------------------------------------------------
